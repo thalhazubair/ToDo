@@ -68,16 +68,16 @@ function App() {
   }, [tasks]);
 
   return (
-    <div className="todoapp stack-large">
-      <h1>Todo</h1>
+    <div className="todoapp">
+      <h1>ToDo</h1>
       <Form addTask={addTask} />
-      <div className="filters btn-group stack-exception">{filterList}</div>
+      <div className="filters btn-group">{filterList}</div>
       <h2 id="list-heading" tabIndex="-1">
         {headingText}
       </h2>
       <ul
         role="list"
-        className="todo-list stack-large stack-exception"
+        className="todo-list"
         aria-labelledby="list-heading"
       >
         {taskList}

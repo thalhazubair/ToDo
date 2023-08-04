@@ -3,7 +3,7 @@ import React from "react";
 export default function Todo(props) {
 
   const viewTemplate = (
-    <div className="stack-small">
+    <div>
       <div className="c-cb">
         <input
           id={props.id}
